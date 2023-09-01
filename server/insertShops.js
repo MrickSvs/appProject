@@ -1,6 +1,6 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Shop = require('/Users/aymericsaves/Documents/App project/models/shops.js'); // Assurez-vous de remplacer par le chemin correct vers votre modèle Shop
+const Shop = require('/Users/aymericsaves/developpment/App project/models/shops.js'); // Assurez-vous de remplacer par le chemin correct vers votre modèle Shop
 
 // Connexion à MongoDB
 mongoose.connect(process.env.MONGO_URI, {
